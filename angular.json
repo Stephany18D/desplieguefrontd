@@ -100,12 +100,18 @@
               }
             ],
             "styles": [
+              "node_modules/materialize-css/dist/css/materialize.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/materialize-css/dist/js/materialize.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "08c4ba05-693c-4982-b4c4-dc8b019a2f9a"
   }
 }
